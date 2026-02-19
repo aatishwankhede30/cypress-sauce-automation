@@ -12,7 +12,7 @@ The following functionalities are automated:
 - Checkout process
 - Logout functionality
 - Session validation
-
+  
 ---
 
 ##  Tech Stack Used
