@@ -42,7 +42,7 @@ Follow the below steps to run the project:
 
 Open terminal and run:
 
-git clone https://github.com/yourusername/saucedemo-cypress-automation.git
+git clone https://github.com/aatishwankhede30/saucedemo-cypress-automation.git
 
 ### Step 2: Go to Project Folder
 
