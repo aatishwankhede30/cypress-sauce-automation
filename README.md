@@ -86,12 +86,12 @@ cypress
  ┃ ┣ checkout.cy.js
  ┃ ┗ session.cy.js
  ┣ fixtures
-    README.md
  ┃ ┗ users.json
  ┣ support
  ┃ ┗ commands.js
 cypress.config.js
 package.json
+README.md
 
 ---
 ##  Run Specific Test File
