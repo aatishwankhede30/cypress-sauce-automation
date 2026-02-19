@@ -1,14 +1,17 @@
 # SauceDemo Cypress Automation Framework
 
-##  Project Overview
+##  Project Description
 
-This project contains end-to-end automation test cases for the website:
+This project contains end-to-end automation test cases for https://www.saucedemo.com/ using Cypress.
 
-https://www.saucedemo.com/
-
-The automation is developed using **Cypress** and **JavaScript**.
-
-This framework covers major functionalities like Login, Cart, Checkout, Logout, and Validation scenarios.
+The following functionalities are automated:
+- Login functionality
+- Invalid login validation
+- Add to cart
+- Remove from cart
+- Checkout process
+- Logout functionality
+- Session validation
 
 ---
 
@@ -21,7 +24,45 @@ This framework covers major functionalities like Login, Cart, Checkout, Logout, 
 - GitHub
 
 ---
+##  Prerequisites
 
+Make sure the following software is installed:
+
+- Node.js (v16 or above)
+- npm
+- Git
+- VS Code (optional)
+
+---
+##  Setup Instructions
+
+Follow the below steps to run the project:
+
+### Step 1: Clone the Repository
+
+Open terminal and run:
+
+git clone https://github.com/yourusername/saucedemo-cypress-automation.git
+
+### Step 2: Go to Project Folder
+
+cd saucedemo-cypress-automation
+
+### Step 3: Install Dependencies
+
+npm install
+
+This will install Cypress and all required packages.
+
+### Step 4: Open Cypress Test Runner
+
+npx cypress open
+
+### Step 5: Run Tests in Headless Mode
+
+npx cypress run
+
+---
 ##  Test Scenarios Covered
 
 1. Login with valid users
@@ -37,4 +78,26 @@ This framework covers major functionalities like Login, Cart, Checkout, Logout, 
 ---
 
 ##  Project Structure
+
+cypress
+ ┣ e2e
+ ┃ ┣ login.cy.js
+ ┃ ┣ cart.cy.js
+ ┃ ┣ checkout.cy.js
+ ┃ ┗ session.cy.js
+ ┣ fixtures
+    README.md
+ ┃ ┗ users.json
+ ┣ support
+ ┃ ┗ commands.js
+cypress.config.js
+package.json
+
+---
+##  Run Specific Test File
+
+npx cypress run --spec "cypress/e2e/login.cy.js"
+
+
+
 
